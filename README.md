@@ -8,7 +8,22 @@ This repository contains a simple Node.js web application dockerized using Docke
 - **package.json**: Configuration file for Node.js application, including dependencies and start script.
 - **Dockerfile**: Dockerfile specifying the steps to build the Docker image.
 
+Objective: Create a Dockerfile for a simple web application.
 
+Instructions:
+Imagine you have a basic web application written in Node.js.
+Your task is to create a Dockerfile that builds a Docker image for this application.
+
+The Dockerfile should:
+1. Use an official Node.js base image.
+2. Set the working directory to /app.
+3. Copy the application code into the container.
+4. Expose port 3000.
+5. Use a non-root user to run the application.
+6. Include any necessary dependencies and commands to start the application.
+7. Use source control tool github to push you all code with docker file
+8. Add readme file in github repo to explain your task and working of project explain all the command and step to create docker files
+9. For web application code you can use some open source github project
 
 
 ## Steps and explanation to create Dockerfile .
